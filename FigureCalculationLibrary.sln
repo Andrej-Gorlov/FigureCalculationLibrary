@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureCalculationLibrary", "FigureCalculationLibrary\FigureCalculationLibrary.csproj", "{04D050FD-3612-4CA8-A2A1-F0F0760DD8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureCalculationLibrary.UnitTest", "FigureCalculationLibrary.UnitTest\FigureCalculationLibrary.UnitTest.csproj", "{5E6AC1B2-B85F-477A-84C7-0DB39656FFA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{FCD05744-DD5B-43E4-8B67-26C13C47D883}"
+	ProjectSection(SolutionItems) = preProject
+		SqlQuery.sql = SqlQuery.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04D050FD-3612-4CA8-A2A1-F0F0760DD8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D050FD-3612-4CA8-A2A1-F0F0760DD8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D050FD-3612-4CA8-A2A1-F0F0760DD8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D050FD-3612-4CA8-A2A1-F0F0760DD8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6AC1B2-B85F-477A-84C7-0DB39656FFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6AC1B2-B85F-477A-84C7-0DB39656FFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6AC1B2-B85F-477A-84C7-0DB39656FFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6AC1B2-B85F-477A-84C7-0DB39656FFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBF72971-D18D-4265-8683-C161F19FA699}
+	EndGlobalSection
+EndGlobal
